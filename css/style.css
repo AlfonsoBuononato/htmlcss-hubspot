@@ -31,14 +31,38 @@ i{
     clear: both;
 }
 
+.background{
+    background-color: #f4f9fd;
+}
+
 li{
     display: inline-block;
     list-style: none;
 }
 
 a{
+    display: inline-block;
     text-decoration: none;
     color: black;
+}
+
+.fas.fa-check-circle{
+    background-color: white;
+    color: #fe775a; 
+   
+}
+
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
 }
 
 .mr-10{
@@ -59,6 +83,7 @@ a{
     border: 1px solid #fe775a;
     color: #fe775a;
     border-radius: 3px;
+    font-size: x-small;
 }
 
 .btn-big{
@@ -67,6 +92,16 @@ a{
     color: white;
     border-radius: 3px;  
     background-color: #fe775a;
+    font-size: x-small;
+}
+
+.btn-super{
+    padding: 10px 25px;
+    border: 1px solid #fe775a;
+    color: white;
+    border-radius: 3px;  
+    background-color: #fe775a;
+    font-size: x-small;
 }
 
 /* HEADER */
@@ -99,13 +134,123 @@ nav.nav-top {
     border-bottom: 1px solid black;
 }
 
+nav.nav-top .nav-top-right li a{
+    line-height: 1;
+}
+
 /* NAV BOTTOM */
 
 nav.nav-bottom .nav-bottom-left img{
-    width: 80px;
-    height: 50px;
+    width: 70px;
+    height: 40px;
+    padding-top: 20px;
 }
 
 nav.nav-bottom .nav-bottom-right{
     text-align: right;
 }
+
+/* MAIN */
+
+/* SECTION HERO */
+
+section.hero{
+    height: 540px;
+    background-image: url(../img/jumbotron.png);
+    background-size: cover;
+}
+
+section.hero .container{
+    position: relative;
+    height: 100%;
+}
+
+section.hero .hero-text{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 45%;
+    transform: translateY(-50%);
+}
+
+/* SECTION BARRA */
+
+.barra-centrale{
+    height: 70px;
+    background-color: #afebe4;
+    border-top: 5px solid #33475b;
+    border-bottom: 5px solid #33475b;
+}
+
+/* SECTION STRUMENTS */
+
+section.struments{
+    text-align: center;
+    height: 350px;
+}
+
+section.struments .container{
+    position: relative;
+    height: 100%;
+}
+
+section.struments .struments-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+}
+
+section.struments .struments-text img{
+    width: 170px;
+    height: 170px;
+}
+
+/* SECTION FREE */
+
+section.free{
+}
+
+section.free .free-content .container{
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px #e6ecf1;
+    border-radius: 5px;
+}
+
+section.free .free-content-left{
+    padding: 40px;
+    top: 40%;
+    width: 30%;
+    text-align: center;
+}
+
+section.free .free-content-left img{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+section.free .free-content-right{
+    width: 70%;
+    padding: 50px;
+}
+
+div.riga{
+    line-height: 50px;
+    position: relative;
+    height: 50px;
+}
+
+div.riga hr{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 320px;
+    margin-left: 40px;
+    border: 1px solid black;
+    color: black;
+}
+

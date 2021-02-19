@@ -61,6 +61,10 @@ a{
     margin-top: 30px;
 }
 
+.mt-50{
+    margin-top: 50px;
+}
+
 .mb-10{
     margin-bottom: 10px;
 }
@@ -239,9 +243,10 @@ section.free .free-content-right{
 }
 
 div.riga{
-    line-height: 50px;
+    line-height: 40px;
     position: relative;
-    height: 50px;
+    height: 40px;
+    margin-top: 20px;
 }
 
 div.riga hr{
@@ -253,4 +258,38 @@ div.riga hr{
     border: 1px solid black;
     color: black;
 }
+
+/* SECTION INFO */
+
+div.info-content{
+   padding: 40px 0;
+}
+
+div.info-content li{
+    display: block;
+    text-align: left;
+}
+
+section.info .info-col-left,
+section.info .info-col-center,
+section.info .info-col-right{
+    background-color: white;
+    padding: 20px;
+    width: 31%;
+    margin-right: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+section.info .info-col-right{
+    margin-right: 0;
+}
+
+.info-content .info-col-left img,
+.info-content .info-col-center img,
+.info-content .info-col-right img{
+    width: 100px;
+    height: 100px;
+}
+
 

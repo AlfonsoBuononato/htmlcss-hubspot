@@ -6,10 +6,6 @@
 
 /* FONT */
 
-li{
-    font-size: small;
-}
-
 i{
     font-size: 10px;
 }
@@ -44,6 +40,7 @@ i{
 }
 
 li{
+    font-size: small;
     display: inline-block;
     list-style: none;
 }
@@ -338,3 +335,132 @@ section.dati div.row-bottom div > img{
     width: 50px;
     height: 50px;
 } 
+
+/* SECTION CONSTUMERS */
+
+section.constumers .constumers-top-left{
+    width: 30%;
+    margin-top: 30px;
+}
+
+section.constumers .constumers-top-left p{
+    padding-top: 20px;
+}
+
+section.constumers .constumers-top-left .container-p{
+    width: 150px;
+    margin: auto;
+}
+
+section.constumers .constumers-top-right{
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+section.constumers .constumers-top-right img{
+    width: 80px;
+    margin: 12px;
+}
+
+.constumers-bottom{
+    margin-top: 50px;
+    width: 100%;
+}
+
+section.constumers .constumers-bottom-left,
+section.constumers .constumers-bottom-right{
+    width: 50%;
+}
+
+section.constumers .container-info{
+    width: 350px;
+}
+
+
+
+.constumers-bottom .constumers-bottom-right{
+    text-align: right;
+}
+
+.constumers-bottom .constumers-bottom-right img{
+    width: 220px;
+    height: 270px;
+}
+
+/* FOOTER */
+
+footer.info-utili{
+    background-color: #32495b;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+footer.info-utili .container .info-sistem{
+    width: 100%;
+}
+
+footer.info-utili .container .info-sistem ul{
+    width: 25%;
+}
+
+footer.info-utili .container .info-sistem li:first-child{
+    color: white;
+}
+
+footer.info-utili .container .info-sistem li{
+    display: block;
+}
+
+footer.info-utili .container .info-sistem ul li a{
+    color: #abb8c5;
+}
+
+footer.info-utili .container .info-sistem ul li a.btn{
+    color: #3c5263;
+    background-color: #dadee0;
+    border-color: #dadee0;
+}
+
+footer.info-utili .info-sistem li.social{
+    display: inline-block;
+    color: #cbd6e2;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+footer.info-utili .traduzione a{
+    padding: 10px;
+    color: white;
+}
+footer.info-utili .traduzione{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+footer.info-utili .copyright{
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer.info-utili .copyright .copyright-left{
+    color: #dbdfe2;
+    width: 50%;
+}
+
+footer.info-utili .copyright .copyright-left img{
+    width: 100px;
+}
+
+footer.info-utili .copyright .copyright-right a{
+    color: #abb8c5;
+}
+
+footer.info-utili .copyright .copyright-right{
+    width: 50%;
+    text-align: right;
+}

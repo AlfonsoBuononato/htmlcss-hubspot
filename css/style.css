@@ -6,6 +6,45 @@
 
 /* FONT */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #3e5465;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 23px;
+}
+
+h5{
+    font-size: xx-small;
+    font-weight: 600;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: x-small;
+    font-weight: 500;
+}
+
+p{
+    line-height: 15px;
+    font-size: x-small;
+    font-weight: 600;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    font-size: x-small;
+    font-weight: 600;
+}
+
 i{
     font-size: 10px;
 }
@@ -39,18 +78,6 @@ i{
     display: block;
 }
 
-li{
-    font-size: small;
-    display: inline-block;
-    list-style: none;
-}
-
-a{
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-}
-
 .fas.fa-check-circle{
     background-color: white;
     color: #fe775a; 
@@ -72,6 +99,10 @@ a{
 
 .mb-10{
     margin-bottom: 10px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
 }
 
 .mr-10{
@@ -145,6 +176,10 @@ nav.nav-top {
 
 nav.nav-top .nav-top-right li a{
     line-height: 1;
+}
+
+nav.nav-top .nav-top-right li .fas.fa-search{
+    color: #00a4bd;
 }
 
 /* NAV BOTTOM */
@@ -352,6 +387,11 @@ section.constumers .constumers-top-left .container-p{
     margin: auto;
 }
 
+section.constumers .constumers-top-left .container-p h2{
+    font-size: xx-large;
+    font-weight: 700;
+}
+
 section.constumers .constumers-top-right{
     width: 60%;
     margin-top: 30px;
@@ -361,6 +401,7 @@ section.constumers .constumers-top-right{
 section.constumers .constumers-top-right img{
     width: 80px;
     margin: 12px;
+    vertical-align: middle;
 }
 
 .constumers-bottom{

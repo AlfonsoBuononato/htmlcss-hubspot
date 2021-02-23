@@ -70,6 +70,10 @@ i{
     background-color: #f4f9fd;
 }
 
+.inline{
+    display: inline;
+}
+
 .inline-block{
     display: inline-block;
 }
@@ -197,7 +201,7 @@ nav.nav-bottom .nav-bottom-right{
     text-align: right;
 }
 
-/* HEADER DROP-DOWN */
+/* HEADER DROP-DOWN NAV TOP */
 .drop-down{
     display: none;
     line-height: 1;
@@ -208,9 +212,78 @@ nav.nav-bottom .nav-bottom-right{
 }
 
 .nav-top-left .lingua:hover .drop-down{
-    display: block;
+    display: block;    /* CHIEDERE PERCHE NON FUNZIONA SE USO LA A */
     position: absolute;
 }
+
+/* HEADER DROP DOWN NAV BOTTOM */
+
+.dropdown-software-item{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    display: none;
+    width: 900px;
+    background-color: white;
+    z-index: 20;
+    line-height: 1;
+    text-align: left;
+}
+
+.dropdown-software-item .clear-fix{
+    width: 100%;
+}
+
+.dropdown-software:hover .dropdown-software-item{
+    display: block;
+}
+
+.dropdown-software-item .item-left{
+    width: 30%;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    border-right: 2px solid #f5f8fa;
+}
+
+.dropdown-software-item .item-right{
+    width: 70%;
+}
+
+.item-right .item-content-top{
+    padding: 20px 10px;
+    border-bottom: 2px solid #f5f8fa;
+    margin: 0 10px;
+}
+
+.item-content-center .item-content-right,
+.item-content-center .item-content-left{
+    width: 50%;
+    padding: 20px;
+}
+
+.item-content-center .item-content-right-top,
+.item-content-center .item-content-right-bottom,
+.item-content-center .item-content-left-top,
+.item-content-center .item-content-left-bottom{
+    padding: 20px;
+}
+
+div.item-footer{
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #f5f8fa;
+}
+
+.item-content-top:hover,
+.item-content-left-top:hover,
+.item-content-left-bottom:hover,
+.item-content-right-top:hover,
+.item-content-right-bottom:hover{
+    box-shadow: 3px 6px 9px #888888;
+    cursor: pointer;
+}
+
 /* MAIN */
 
 /* SECTION HERO */
@@ -524,7 +597,6 @@ footer.info-utili .copyright .copyright-right{
 /* FOOTER HELP */
 
 div.supporto{
-    width: 140px;
     position: fixed;
     bottom: 0;
     right: 70px;
@@ -538,10 +610,16 @@ div.supporto a i.fa-comment-dots{
 }
 
 div.supporto p{
+    display: none;
+    width: 150px;
     color: black;
     border-radius: 3px;
     background-color: white;
     padding: 10px;
     font-size: medium;
     text-align: left;
+}
+
+div.supporto:hover p{
+    display: block;
 }

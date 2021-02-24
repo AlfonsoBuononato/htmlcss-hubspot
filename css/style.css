@@ -11,6 +11,10 @@ body{
     color: #3e5465;
 }
 
+.font-medium{
+    font-size: medium;
+}
+
 h1{
     font-size: 30px;
     font-weight: 700;
@@ -30,6 +34,7 @@ a{
     text-decoration: none;
     font-size: x-small;
     font-weight: 500;
+    color: black;
 }
 
 p{
@@ -88,6 +93,9 @@ i{
    
 }
 
+.orange{
+    color: orange;
+}
 .mt-10{
     margin-top: 10px;
 }
@@ -201,7 +209,7 @@ nav.nav-bottom .nav-bottom-right{
     text-align: right;
 }
 
-/* HEADER DROP-DOWN NAV TOP */
+/* HEADER DROP-DOWN NAV TOP LINGUA */
 .drop-down{
     display: none;
     line-height: 1;
@@ -216,7 +224,7 @@ nav.nav-bottom .nav-bottom-right{
     position: absolute;
 }
 
-/* HEADER DROP DOWN NAV BOTTOM */
+/* DROP-DOWN SOFTWARE*/
 
 .dropdown-software-item{
     position: absolute;
@@ -230,24 +238,33 @@ nav.nav-bottom .nav-bottom-right{
     text-align: left;
 }
 
-.dropdown-software-item .clear-fix{
-    width: 100%;
-}
-
 .dropdown-software:hover .dropdown-software-item{
     display: block;
 }
 
+.dropdown-software-item .clear-fix{
+    width: 100%;
+}
+
+.dropdown-software-item a{
+    color: #0091ae;
+}
+
 .dropdown-software-item .item-left{
-    width: 30%;
+    width: 20%;
     height: 300px;
     line-height: 300px;
     text-align: center;
     border-right: 2px solid #f5f8fa;
 }
 
+.dropdown-software-item .item-left h3{
+    display: inline-block;
+    line-height: 1;
+}
+
 .dropdown-software-item .item-right{
-    width: 70%;
+    width: 80%;
 }
 
 .item-right .item-content-top{
@@ -282,6 +299,38 @@ div.item-footer{
 .item-content-right-bottom:hover{
     box-shadow: 3px 6px 9px #888888;
     cursor: pointer;
+}
+
+/* DROPDOWN RESOURCES */
+
+.dropdown-resources-item{
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    background-color: white;
+    display: none;
+    padding: 10px;
+    line-height: 20px;
+    z-index: 21;
+}
+
+.dropdown-resources-item li{
+    display: block;
+}
+
+.dropdown-resources-item .resources-col-1,
+.dropdown-resources-item .resources-col-2{
+    width: 50%;
+    text-align: left;
+}
+
+.dropdown-resources:hover .dropdown-resources-item{
+    display: block;
+}
+
+.dropdown-resources-item li a:hover{
+    color: #0091ae;
+    text-decoration: underline;
 }
 
 /* MAIN */
